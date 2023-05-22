@@ -18,6 +18,7 @@ mlflow = "^2.3.1"
 xgboost = "^1.7.5"
 hyperopt = "^0.2.7"
 boto3 = "^1.26.123"
+optuna = "^3.1.1"
 
 [tool.poetry.group.dev.dependencies]
 jupyterlab = "^3.6.3"
