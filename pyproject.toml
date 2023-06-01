@@ -19,6 +19,7 @@ xgboost = "^1.7.5"
 hyperopt = "^0.2.7"
 boto3 = "^1.26.123"
 optuna = "^3.1.1"
+wandb = "^0.15.3"
 
 [tool.poetry.group.dev.dependencies]
 jupyterlab = "^3.6.3"
