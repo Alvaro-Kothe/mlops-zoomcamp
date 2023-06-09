@@ -111,7 +111,7 @@ def train_best_model(
 
 
 @flow
-def main_flow(
+def mail_flow(
     train_path: str = "./data/green_tripdata_2021-01.parquet",
     val_path: str = "./data/green_tripdata_2021-02.parquet",
 ) -> None:
@@ -134,4 +134,4 @@ def main_flow(
 
 
 if __name__ == "__main__":
-    main_flow()
+    mail_flow()

@@ -3320,6 +3320,24 @@ websockets = ">=10.4"
 dev = ["cairosvg", "flaky", "ipython", "ipython (>=8.12.0,<8.13.0)", "jinja2", "mike", "mkdocs", "mkdocs-gen-files", "mkdocs-material", "mkdocstrings-python", "mock", "moto", "mypy", "numpy", "pillow", "pre-commit", "pytest (>7)", "pytest-asyncio (>=0.18.2)", "pytest-benchmark", "pytest-cov", "pytest-env", "pytest-flakefinder", "pytest-timeout", "pytest-xdist", "pytkdocs (>=0.14.2)", "pyyaml", "requests", "respx", "ruff", "setuptools (!=60.9.0)", "virtualenv", "watchfiles"]
 
 [[package]]
+name = "prefect-email"
+version = "0.2.2"
+description = "Prefect tasks and subflows for interacting with email"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "prefect-email-0.2.2.tar.gz", hash = "sha256:932ee5e99bc74e59264b0ddb33f6218bcce5a8c08392ef1c936a42d4744b529e"},
+    {file = "prefect_email-0.2.2-py3-none-any.whl", hash = "sha256:267447c9090068b5b5cbe18cde239b87126117237473325bd002d0fa181e0f2a"},
+]
+
+[package.dependencies]
+prefect = ">=2.0.0"
+
+[package.extras]
+dev = ["black", "coverage", "flake8", "interrogate", "isort", "mkdocs", "mkdocs-gen-files", "mkdocs-material", "mkdocstrings[python]", "mock", "mypy", "pillow", "pre-commit", "pytest", "pytest-asyncio"]
+
+[[package]]
 name = "prometheus-client"
 version = "0.16.0"
 description = "Python client for the Prometheus monitoring system."
@@ -5351,4 +5369,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "a16d70e7fc086f9615e202643fec7ce5394dbfe237fcc48c7e4bca9b62c44aa7"
+content-hash = "7742a30f587876592f848a89c74f3bc2c5d2d7f2743e02a17e87d791dc552597"
