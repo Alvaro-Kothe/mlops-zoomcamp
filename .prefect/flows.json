@@ -1,0 +1,5 @@
+{
+  "mail-flow": "exercises/exercise-03/orchestrate_mail.py:mail_flow",
+  "main-flow": "exercises/exercise-03/orchestrate.py:main_flow",
+  "main-flow-md": "exercises/exercise-03/orchestrate_md_artifact.py:main_flow_md"
+}
